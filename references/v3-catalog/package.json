@@ -56,7 +56,7 @@
     "sqlite3": "^5.1.7",
     "stripe": "^12.14.0",
     "superstruct": "^2.0.2",
-    "typeorm": "^0.3.20",
+    "typeorm": "^0.3.26",
     "valibot": "^0.42.1",
     "wrangler": "3.70.0",
     "yt-dlp-wrap": "^2.3.12",
