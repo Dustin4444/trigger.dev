@@ -31,7 +31,7 @@
     "@traceloop/instrumentation-openai": "^0.10.0",
     "@trigger.dev/sdk": "workspace:*",
     "@typeschema/typebox": "^0.14.0",
-    "ai": "^3.3.24",
+    "ai": "^5.0.52",
     "arktype": "2.0.0-rc.17",
     "bcrypt": "^6.0.0",
     "canvas": "^3.1.0",
