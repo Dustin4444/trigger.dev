@@ -24,7 +24,7 @@
     "@trigger.dev/react-hooks": "workspace:*",
     "@trigger.dev/sdk": "workspace:*",
     "@uploadthing/react": "^7.0.3",
-    "ai": "^4.0.0",
+    "ai": "^5.0.52",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
