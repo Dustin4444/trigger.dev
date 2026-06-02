@@ -70,7 +70,7 @@
   },
   "packageManager": "pnpm@10.33.2",
   "dependencies": {
-    "@changesets/cli": "2.26.2",
+    "@changesets/cli": "2.29.6",
     "@remix-run/changelog-github": "^0.0.5",
     "agentcrumbs": "^0.5.0",
     "node-fetch": "2.6.x"
