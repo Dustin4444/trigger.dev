@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
-    "rimraf": "^6.0.1",
+    "rimraf": "^6.1.1",
     "ts-proto": "^1.167.3"
   },
   "engines": {
@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "long": "^5.2.3",
-    "protobufjs": "^7.2.6"
+    "protobufjs": "^7.5.8"
   }
 }
