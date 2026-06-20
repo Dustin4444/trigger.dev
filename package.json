@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@manypkg/cli": "^0.19.2",
-    "@playwright/test": "^1.36.2",
+    "@playwright/test": "^1.44.0",
     "@trigger.dev/database": "workspace:*",
     "@types/node": "20.14.14",
     "@vitest/coverage-v8": "4.1.7",
