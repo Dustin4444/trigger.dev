@@ -144,7 +144,7 @@ importers:
         version: 4.0.5(typescript@5.5.4)
       vitest:
         specifier: 4.1.7
-        version: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@3.12.2)(yaml@2.9.0))
+        version: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@3.12.2)(yaml@2.9.0))
 
   apps/coordinator:
     dependencies:
@@ -522,17 +522,17 @@ importers:
         specifier: 2.17.4
         version: 2.17.4(typescript@5.5.4)
       '@remix-run/server-runtime':
-        specifier: 2.17.4
-        version: 2.17.4(typescript@5.5.4)
+        specifier: 2.17.5
+        version: 2.17.5(typescript@5.5.4)
       '@remix-run/v1-meta':
         specifier: ^0.1.3
-        version: 0.1.3(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))
+        version: 0.1.3(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))
       '@s2-dev/streamstore':
         specifier: ^0.22.10
         version: 0.22.10(supports-color@10.0.0)
       '@sentry/remix':
         specifier: 9.46.0
-        version: 9.46.0(patch_hash=146126b032581925294aaed63ab53ce3f5e0356a755f1763d7a9a76b9846943b)(@remix-run/node@2.17.4(typescript@5.5.4))(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(encoding@0.1.13)(react@18.3.1)
+        version: 9.46.0(patch_hash=146126b032581925294aaed63ab53ce3f5e0356a755f1763d7a9a76b9846943b)(@remix-run/node@2.17.4(typescript@5.5.4))(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(encoding@0.1.13)(react@18.3.1)
       '@slack/web-api':
         specifier: 7.16.0
         version: 7.16.0
@@ -814,19 +814,19 @@ importers:
         version: 2.0.1
       remix-auth:
         specifier: ^3.6.0
-        version: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))
+        version: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))
       remix-auth-email-link:
         specifier: 2.0.2
-        version: 2.0.2(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4)))
+        version: 2.0.2(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4)))
       remix-auth-github:
         specifier: ^1.6.0
-        version: 1.6.0(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4)))
+        version: 1.6.0(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4)))
       remix-auth-google:
         specifier: ^2.0.0
-        version: 2.0.0(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4)))
+        version: 2.0.0(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4)))
       remix-typedjson:
         specifier: 0.3.1
-        version: 0.3.1(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(react@18.3.1)
+        version: 0.3.1(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(react@18.3.1)
       remix-utils:
         specifier: ^7.7.0
         version: 7.7.0(@remix-run/node@2.17.4(typescript@5.5.4))(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/router@1.23.2(patch_hash=f14fb2af2690628a0164b66d98e8d7cd6a0e8a4a30a51e53cfb1b6caeca6f7c9))(crypto-js@4.2.0)(intl-parse-accept-language@1.0.0)(react@18.3.1)(zod@3.25.76)
@@ -917,7 +917,7 @@ importers:
         version: link:../../internal-packages/testcontainers
       '@remix-run/dev':
         specifier: 2.17.4
-        version: 2.17.4(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/serve@2.17.4(typescript@5.5.4))(@types/node@20.14.14)(bufferutil@4.0.9)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.20.6)(typescript@5.5.4)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.20.6)(yaml@2.9.0))(yaml@2.9.0)
+        version: 2.17.4(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/serve@2.17.4(typescript@5.5.4))(@types/node@20.14.14)(bufferutil@4.0.9)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.20.6)(typescript@5.5.4)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.20.6)(yaml@2.9.0))(yaml@2.9.0)
       '@remix-run/testing':
         specifier: ^2.17.4
         version: 2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
@@ -1016,7 +1016,7 @@ importers:
         version: 10.4.13(postcss@8.5.10)
       css-loader:
         specifier: ^6.10.0
-        version: 6.10.0(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18))
+        version: 6.10.0(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10))
       datepicker:
         specifier: link:@types/@react-aria/datepicker
         version: link:@types/@react-aria/datepicker
@@ -1037,7 +1037,7 @@ importers:
         version: 16.0.1(postcss@8.5.10)
       postcss-loader:
         specifier: ^8.1.1
-        version: 8.1.1(postcss@8.5.10)(typescript@5.5.4)(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18))
+        version: 8.1.1(postcss@8.5.10)(typescript@5.5.4)(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10))
       prop-types:
         specifier: ^15.8.1
         version: 15.8.1
@@ -1046,7 +1046,7 @@ importers:
         version: 6.0.1
       style-loader:
         specifier: ^3.3.4
-        version: 3.3.4(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18))
+        version: 3.3.4(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10))
       supertest:
         specifier: ^7.0.0
         version: 7.0.0
@@ -1156,7 +1156,7 @@ importers:
         version: link:../../packages/cli-v3
       vitest:
         specifier: 4.1.7
-        version: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.22.4)(yaml@2.9.0))
+        version: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0))
 
   internal-packages/dashboard-agent-db:
     dependencies:
@@ -1247,7 +1247,7 @@ importers:
         version: link:../testcontainers
       vitest:
         specifier: 4.1.7
-        version: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.22.4)(yaml@2.9.0))
+        version: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0))
 
   internal-packages/otlp-importer:
     dependencies:
@@ -1449,7 +1449,7 @@ importers:
         version: 5.5.4
       vitest:
         specifier: 4.1.7
-        version: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.22.4)(yaml@2.9.0))
+        version: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0))
 
   internal-packages/sso:
     dependencies:
@@ -7452,6 +7452,10 @@ packages:
     resolution: {integrity: sha512-Ic6m2U/rMjTkhERIa/0ZtXJP17QUi2CbWE7cqx4J58M8aA3QTfW+2UlQ4psvTX9IO1RfNVhK3pcpdjej7L+t2w==}
     engines: {node: '>=14.0.0'}
 
+  '@remix-run/router@1.23.3':
+    resolution: {integrity: sha512-4An71tdz9X8+3sI4Qqqd2LWd9vS39J7sqd9EU4Scw7TJE/qB10Flv/UuqbPVgfQV9XoK8Np6jNquZitnZq5i+Q==}
+    engines: {node: '>=14.0.0'}
+
   '@remix-run/serve@2.17.4':
     resolution: {integrity: sha512-c632agTDib70cytmxMVqSbBMlhFKawcg5048yZZK/qeP2AmUweM7OY6Ivgcmv/pgjLXYOu17UBKhtGU8T5y8cQ==}
     engines: {node: '>=18.0.0'}
@@ -7459,6 +7463,15 @@ packages:
 
   '@remix-run/server-runtime@2.17.4':
     resolution: {integrity: sha512-oCsFbPuISgh8KpPKsfBChzjcntvTz5L+ggq9VNYWX8RX3yA7OgQpKspRHOSxb05bw7m0Hx+L1KRHXjf3juKX8w==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      typescript: 5.5.4
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  '@remix-run/server-runtime@2.17.5':
+    resolution: {integrity: sha512-SyJ5n2pQyo4ERGvjjLvL2PpRWBzlC2qzO5KkkOE2ygOiNcgOu9WQnnom9GI8KgsTRCO8JnIeLHFRcmxZnVBjfw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: 5.5.4
@@ -8555,8 +8568,8 @@ packages:
   '@swc/helpers@0.5.2':
     resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
 
-  '@swc/types@0.1.6':
-    resolution: {integrity: sha512-/JLo/l2JsT/LRd80C3HfbmVpxOAJ11FO2RCEslFrgzLltoP9j8XIbsyDcfCt2WWyX+CM96rBoNM+IToAkFOugg==}
+  '@swc/types@0.1.27':
+    resolution: {integrity: sha512-K6h3iUlqeM946U4sXFYeahefR1YBbXJvko+hv8WS8/0BNJ4OHiHRywMnQUJCqkR7Y9+hqQ1TvEpiKqUhz7NEFg==}
 
   '@szmarczak/http-timer@1.1.2':
     resolution: {integrity: sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==}
@@ -8802,8 +8815,8 @@ packages:
   '@types/eslint-scope@3.7.7':
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
 
-  '@types/eslint@8.56.12':
-    resolution: {integrity: sha512-03ruubjWyOHlmljCVoxSuNDdmfZDzsrrz0P2LeJsOXr+ZwFQ+0yQIwNCwt/GYhV7Z31fgtXJTAEs+FYlEL851g==}
+  '@types/eslint@9.6.1':
+    resolution: {integrity: sha512-FXx2pKgId/WyYo2jXw63kk7/+TY7u7AziEJxJAnSFzHlqTAS3Ync6SvgYAN/k4/PQpnnVuzoMuVnByKK2qp0ag==}
 
   '@types/estree-jsx@1.0.0':
     resolution: {integrity: sha512-3qvGd0z8F2ENTGr/GG1yViqfiKmRfrXVx5sJyHGFu3z7m5g5utCQtGp/g29JnjflhtQJBv1WDQukHiT58xPcYQ==}
@@ -9103,6 +9116,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@unkey/cache@1.5.0':
     resolution: {integrity: sha512-vqGk9qH3Hn1Nva3hGAaib6G3IcrPkRQ1VgyMFG7asuANZ0RtohONd9RwxXwlaDopJJ66Dsx5rWrV4s/3U1GADg==}
@@ -9338,6 +9352,11 @@ packages:
 
   acorn@8.16.0:
     resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.17.0:
+    resolution: {integrity: sha512-xRQbDb9BnwDafYNn6Vwl839DYVjqXYb1XVGtWAZ1kcDc6iwAL4hg3B1dZlRiuENFeO2H53gFG3in621AdERVAg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -9645,8 +9664,8 @@ packages:
     resolution: {integrity: sha512-lGe34o6EHj9y3Kts9R4ZYs/Gr+6N7MCaMlIFA3F1R2O5/m7K06AxfSeO5530PEERE6/WyEg3lsuyw4GHlPZHog==}
     engines: {node: ^4.5.0 || >= 5.9}
 
-  baseline-browser-mapping@2.10.11:
-    resolution: {integrity: sha512-DAKrHphkJyiGuau/cFieRYhcTFeK/lBuD++C7cZ6KZHbMhBrisoi+EvhQ5RZrIfV5qwsW8kgQ07JIC+MDJRAhg==}
+  baseline-browser-mapping@2.10.40:
+    resolution: {integrity: sha512-BSSLZ9/Cjjv7Gtj5B68ZzXcXUg8iOf3fme+FCuh8rC/Go+Kmh8cox7M3A8dolou16s64QjLPOSdngh7GxXvkSw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -9746,8 +9765,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  browserslist@4.28.1:
-    resolution: {integrity: sha512-ZC5Bd0LgJXgwGqUknZY/vkUQ04r8NXnJZ3yYi4vDmSiZmC/pdSN0NbNRPxZpbtO4uAfDUAFffO8IZoM3Gj8IkA==}
+  browserslist@4.28.4:
+    resolution: {integrity: sha512-MTc8i/x9jBQd1iMw2CFGS+rwMa07eYjLR0CCTLDACl9xhxy+nIs3KeML/biicXtk9JrZ6dnnTatmc7ErPXIxqw==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -9876,8 +9895,8 @@ packages:
   caniuse-lite@1.0.30001754:
     resolution: {integrity: sha512-x6OeBXueoAceOmotzx3PO4Zpt4rzpeIFsSr6AAePTZxSkXiYDUmpypEl7e2+8NCd9bD7bXjqyef8CJYPC1jfxg==}
 
-  caniuse-lite@1.0.30001793:
-    resolution: {integrity: sha512-iwSsYWaCOoh26cV8NwNRViHlrfUvYsHDfRVcbtmw0Kg6PJIZZXwMkj1442FYLBGkeUf1juAsU3DTfxW579mrPA==}
+  caniuse-lite@1.0.30001799:
+    resolution: {integrity: sha512-hG1bReV+OUU+MOqK4t/ZWI0tZOyz3rqS9XuhOUz1cIcbwBKjOyJEJuw9ER5JuNyqxNk8u/JUVbGibBOL1yrjFw==}
 
   case-anything@2.1.13:
     resolution: {integrity: sha512-zlOQ80VrQ2Ue+ymH5OuM/DlDq64mEm+B9UTdHULv5osUMD6HalNTblf2b1u/m6QecjsnOkBpqVZ+XPwIVsy7Ng==}
@@ -10197,8 +10216,8 @@ packages:
     resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
     engines: {node: '>= 0.6'}
 
-  cookie@1.0.2:
-    resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
+  cookie@1.1.1:
+    resolution: {integrity: sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ==}
     engines: {node: '>=18'}
 
   cookiejar@2.1.4:
@@ -10973,8 +10992,8 @@ packages:
   electron-to-chromium@1.5.252:
     resolution: {integrity: sha512-53uTpjtRgS7gjIxZ4qCgFdNO2q+wJt/Z8+xAvxbCqXPJrY6h7ighUkadQmNMXH96crtpa6gPFNP7BF4UBGDuaA==}
 
-  electron-to-chromium@1.5.325:
-    resolution: {integrity: sha512-PwfIw7WQSt3xX7yOf5OE/unLzsK9CaN2f/FvV3WjPR1Knoc1T9vePRVV4W1EM301JzzysK51K7FNKcusCr0zYA==}
+  electron-to-chromium@1.5.381:
+    resolution: {integrity: sha512-n9Wa6yB+vDsGuA8AKbl/0z7HbvWqt5jxIdvr1IUicd0ryPrk7/xzwqLv8D9AbbvZ6avVNtXYLTfmgFHkwkyelg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -11021,8 +11040,8 @@ packages:
     resolution: {integrity: sha512-2agL3ueZhqxoVrfmntO8yuVj+uNSlIOnhykYHk3Cq0ShYPdUjjUiSJrQvXjq01I9jAuI0Zl2YO8Evv5Mqytm5g==}
     engines: {node: '>=10.2.0'}
 
-  enhanced-resolve@5.18.3:
-    resolution: {integrity: sha512-d4lC8xfavMeBjzGr2vECC3fsGXziXZQyJxD868h2M/mBI3PwAuODxAkLkq5HYuvrPYcUtiLzsTo8U3PgX3Ocww==}
+  enhanced-resolve@5.24.1:
+    resolution: {integrity: sha512-7DdUaTjmNwMcH2gLr1qycesKII3BK4RLy/mdAb7x10Lq7bR4aNKHt1BR1ZALSv0rPM/hF5wYF0PhGop/rJm8vw==}
     engines: {node: '>=10.13.0'}
 
   enquirer@2.3.6:
@@ -11864,6 +11883,7 @@ packages:
   glob@11.1.0:
     resolution: {integrity: sha512-vuNwKSaKiqm7g0THUBu2x7ckSs3XJLXE+2ssL7/MfTGPLLcrJQ/4Uq1CjPTtO5cCIiRxqvN6Twy1qOwhL0Xjcw==}
     engines: {node: 20 || >=22}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@13.0.6:
@@ -11872,7 +11892,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -12819,8 +12839,8 @@ packages:
     resolution: {integrity: sha512-OfCBkGEw4nN6JLtgRidPX6QxjBQGQf72q3si2uvqyFEMbycSFFHwAZeXx6cJgFM9wmLrf9zBwCP3Ivqa+LLZPw==}
     engines: {node: '>=6'}
 
-  loader-runner@4.3.1:
-    resolution: {integrity: sha512-IWqP2SCPhyVFTBtRcgMHdzlf9ul25NwaFx4wCEH/KjAXuuHY4yNjvPXsBokp8jCB936PyWRaPKUNh8NvylLp2Q==}
+  loader-runner@4.3.2:
+    resolution: {integrity: sha512-DFEqQ3ihfS9blba08cLfYf1NRAIEm+dDjic073DRDc3/JspI/8wYmtDsHwd3+4hwvdxSK7PGaElfTmm0awWJ4w==}
     engines: {node: '>=6.11.5'}
 
   loader-utils@3.2.1:
@@ -13630,8 +13650,8 @@ packages:
   nice-try@1.0.5:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
 
-  node-abi@3.89.0:
-    resolution: {integrity: sha512-6u9UwL0HlAl21+agMN3YAMXcKByMqwGx+pq+P76vii5f7hTPtKDp08/H9py6DY+cfDw7kQNTGEj/rly3IgbNQA==}
+  node-abi@3.92.0:
+    resolution: {integrity: sha512-KdHvFWZjEKDf0cakgFjebl371GPsISX2oZHcuyKqM7DtogIsHrqKeLTo8wBHxaXRAQlY2PsPlZmfo+9ZCxEREQ==}
     engines: {node: '>=10'}
 
   node-abort-controller@3.1.1:
@@ -13680,8 +13700,9 @@ packages:
   node-releases@2.0.27:
     resolution: {integrity: sha512-nmh3lCkYZ3grZvqcCH+fjmQ7X+H0OeZgP40OierEaAptX4XofMh5kwNbWh7lBduUzCcV/8kZ+NDLCwm2iorIlA==}
 
-  node-releases@2.0.36:
-    resolution: {integrity: sha512-TdC8FSgHz8Mwtw9g5L4gR/Sh9XhSP/0DEkQxfEFXOpiul5IiHgHan2VhYYb6agDSfp4KuvltmGApc8HMgUrIkA==}
+  node-releases@2.0.50:
+    resolution: {integrity: sha512-J6l92tKHX6w8Jy5nO1Vuc01NoIiRGi/d6qBKVxh+IQ8Cr3b6HbVNfKiF8ZpFKufTwpwxMmce2W3iQZ861ZRyTg==}
+    engines: {node: '>=18'}
 
   nodemailer@8.0.6:
     resolution: {integrity: sha512-Nm2XeuDwwy2wi5A+8jPWwQwNzcjNjhWdE3pVLoXEusxJqCnAPAgnBGkSmiLknbnWuOF9qraRpYZjfxqtKZ4tPw==}
@@ -14991,6 +15012,7 @@ packages:
   recharts@2.15.4:
     resolution: {integrity: sha512-UT/q6fwS3c1dHbXv2uFgYJ9BMFHu3fwnd7AYZaEQhXuYQ4hgsxLvsUXzGdKeZrW5xopzDCvuA2N41WJ88I7zIw==}
     engines: {node: '>=14'}
+    deprecated: 1.x and 2.x branches are no longer active. Bump to Recharts v3 to receive latest features and bugfixes. See https://github.com/recharts/recharts/wiki/3.0-migration-guide
     peerDependencies:
       react: 18.3.1
       react-dom: 18.3.1
@@ -15388,6 +15410,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.8.5:
+    resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@0.18.0:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
     engines: {node: '>= 0.8.0'}
@@ -15421,6 +15448,9 @@ packages:
 
   set-cookie-parser@2.6.0:
     resolution: {integrity: sha512-RVnVQxTXuerk653XfuliOxBP81Sf0+qfQE73LIYKcyMYHG94AuH0kgrQpRDuTZnSmjpysHmzxJXKNfa6PjFhyQ==}
+
+  set-cookie-parser@2.7.2:
+    resolution: {integrity: sha512-oeM1lpU/UvhTxw+g3cIfxXHyJRc/uidd3yK1P242gzHds0udQBYzs3y8j4gCCW+ZJ7ad0yctld8RYO+bdurlvw==}
 
   set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
@@ -15578,9 +15608,9 @@ packages:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
 
-  source-map@0.7.4:
-    resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
-    engines: {node: '>= 8'}
+  source-map@0.7.6:
+    resolution: {integrity: sha512-i5uvt8C3ikiWeNZSVZNWcfZPItFQOsYTUAOkcUPGd8DqDy1uOUikjt5dG+uRlwyvR108Fb9DOd4GvXfT0N2/uQ==}
+    engines: {node: '>= 12'}
 
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
@@ -15942,6 +15972,9 @@ packages:
   tar-fs@2.1.4:
     resolution: {integrity: sha512-mDAjwmZdh7LTT6pNleZ05Yt65HC3E+NiQzl672vQG38jIrehtJk/J3mNwIg+vShQPcLF/LV7CMnDW6vjj6sfYQ==}
 
+  tar-fs@2.1.5:
+    resolution: {integrity: sha512-OboTd8mmMhZDNPV+UjQcK9yKAatXu2aJ+r1w4im1Otd4M4fl2hwvdoXUxIYHFTHWK/3y3FarBP70v3vwmGlOxw==}
+
   tar-fs@3.1.2:
     resolution: {integrity: sha512-QGxxTxxyleAdyM3kpFs14ymbYmNFrfY+pHj7Z8FgtbZ7w2//VAgLMac7sT6nRpIHjppXO2AwwEOg0bPFVRcmXw==}
 
@@ -15973,24 +16006,51 @@ packages:
     resolution: {integrity: sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==}
     engines: {node: '>=8'}
 
-  terser-webpack-plugin@5.4.0:
-    resolution: {integrity: sha512-Bn5vxm48flOIfkdl5CaD2+1CiUVbonWQ3KQPyP7/EuIl9Gbzq/gQFOzaMFUEgVjB1396tcK0SG8XcNJ/2kDH8g==}
+  terser-webpack-plugin@5.6.1:
+    resolution: {integrity: sha512-201R5j+sJpK8nFWwKVyNfZot8FaJbLZDq5evriVzbV1wDtSXDjRUDRfJzHpAaxFDMEhsZL1QkeqM61wgsS3KaQ==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
+      '@minify-html/node': '*'
       '@swc/core': '*'
+      '@swc/css': '*'
+      '@swc/html': '*'
+      clean-css: '*'
+      cssnano: '*'
+      csso: '*'
       esbuild: '*'
+      html-minifier-terser: '*'
+      lightningcss: '*'
+      postcss: '*'
       uglify-js: '*'
       webpack: ^5.1.0
     peerDependenciesMeta:
+      '@minify-html/node':
+        optional: true
       '@swc/core':
         optional: true
+      '@swc/css':
+        optional: true
+      '@swc/html':
+        optional: true
+      clean-css:
+        optional: true
+      cssnano:
+        optional: true
+      csso:
+        optional: true
       esbuild:
+        optional: true
+      html-minifier-terser:
+        optional: true
+      lightningcss:
+        optional: true
+      postcss:
         optional: true
       uglify-js:
         optional: true
 
-  terser@5.46.1:
-    resolution: {integrity: sha512-vzCjQO/rgUuK9sf8VJZvjqiqiHFaZLnOiimmUuOKODxWL8mm/xua7viT7aqX7dgPY60otQjUotzFMmCB4VdmqQ==}
+  terser@5.48.0:
+    resolution: {integrity: sha512-J/9An6vs9Us6wKRriSFXBWdRZapREHqFzdNUKk0pmu804EMR6dr6winwo7e5JDxN4xahxQsuysyYFwlwj4XN/Q==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -16189,6 +16249,7 @@ packages:
   tsconfck@2.1.2:
     resolution: {integrity: sha512-ghqN1b0puy3MhhviwO2kGF8SeMDNhEbnKxjK7h6+fvY9JAxqvXi8y5NAHSQv687OVboS2uZIByzGd45/YxrRHg==}
     engines: {node: ^14.13.1 || ^16 || >=18}
+    deprecated: unmaintained
     hasBin: true
     peerDependencies:
       typescript: 5.5.4
@@ -16199,6 +16260,7 @@ packages:
   tsconfck@3.1.3:
     resolution: {integrity: sha512-ulNZP1SVpRDesxeMLON/LtWM8HIgAJEIVpVVhBM6gsmvQ8+Rh+ZG7FWGvHh7Ah3pRABwVJWklWCr/BTZSv0xnQ==}
     engines: {node: ^18 || >=20}
+    deprecated: unmaintained
     hasBin: true
     peerDependencies:
       typescript: 5.5.4
@@ -16596,6 +16658,7 @@ packages:
 
   uuid@10.0.0:
     resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@11.1.0:
@@ -16608,15 +16671,17 @@ packages:
 
   uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uvu@0.5.6:
@@ -16837,8 +16902,8 @@ packages:
   warning@4.0.3:
     resolution: {integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==}
 
-  watchpack@2.5.1:
-    resolution: {integrity: sha512-Zn5uXdcFNIA1+1Ei5McRd+iRzfhENPCe7LeABkJtNulSxjma+l7ltNx55BWZkRlwRnpOgHqxnjyaDgJnNXnqzg==}
+  watchpack@2.5.2:
+    resolution: {integrity: sha512-6i/00NBjP4yGPs+caKSyRfpTF/8Torsu0MOW3mMzIbhgISFder8i7xbqgHlLMwJrdiN8ndBV3UA1/AfzPSr+jg==}
     engines: {node: '>=10.13.0'}
 
   wcwidth@1.0.1:
@@ -16864,8 +16929,8 @@ packages:
   webidl-conversions@4.0.2:
     resolution: {integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==}
 
-  webpack-sources@3.3.4:
-    resolution: {integrity: sha512-7tP1PdV4vF+lYPnkMR0jMY5/la2ub5Fc/8VQrrU+lXkiM6C4TjVfGw7iKfyhnTQOsD+6Q/iKw0eFciziRgD58Q==}
+  webpack-sources@3.5.0:
+    resolution: {integrity: sha512-HPuy+uuoTCaaoEoI1LQ3JN9+vrPBvEesnnX1jADHy728cHSMlq4wUc4afYqahq2B1mhQVZxCXOkNTnXltr+2vQ==}
     engines: {node: '>=10.13.0'}
 
   webpack@5.102.1:
@@ -23818,7 +23883,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/serve@2.17.4(typescript@5.5.4))(@types/node@20.14.14)(bufferutil@4.0.9)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.20.6)(typescript@5.5.4)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.20.6)(yaml@2.9.0))(yaml@2.9.0)':
+  '@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/serve@2.17.4(typescript@5.5.4))(@types/node@20.14.14)(bufferutil@4.0.9)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.20.6)(typescript@5.5.4)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.20.6)(yaml@2.9.0))(yaml@2.9.0)':
     dependencies:
       '@babel/core': 7.22.17
       '@babel/generator': 7.24.7
@@ -23835,7 +23900,7 @@ snapshots:
       '@remix-run/router': 1.23.2(patch_hash=f14fb2af2690628a0164b66d98e8d7cd6a0e8a4a30a51e53cfb1b6caeca6f7c9)
       '@remix-run/server-runtime': 2.17.4(typescript@5.5.4)
       '@types/mdx': 2.0.5
-      '@vanilla-extract/integration': 6.2.1(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.46.1)
+      '@vanilla-extract/integration': 6.2.1(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.48.0)
       arg: 5.0.2
       cacache: 17.1.4
       chalk: 4.1.2
@@ -23875,12 +23940,12 @@ snapshots:
       tar-fs: 2.1.4
       tsconfig-paths: 4.2.0
       valibot: 1.3.1(typescript@5.5.4)
-      vite-node: 3.1.4(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.20.6)(yaml@2.9.0)
+      vite-node: 3.1.4(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.20.6)(yaml@2.9.0)
       ws: 7.5.10(bufferutil@4.0.9)
     optionalDependencies:
       '@remix-run/serve': 2.17.4(typescript@5.5.4)
       typescript: 5.5.4
-      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.20.6)(yaml@2.9.0)
+      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.20.6)(yaml@2.9.0)
     transitivePeerDependencies:
       - '@types/node'
       - bluebird
@@ -23932,6 +23997,8 @@ snapshots:
 
   '@remix-run/router@1.23.2(patch_hash=f14fb2af2690628a0164b66d98e8d7cd6a0e8a4a30a51e53cfb1b6caeca6f7c9)': {}
 
+  '@remix-run/router@1.23.3': {}
+
   '@remix-run/serve@2.17.4(typescript@5.5.4)':
     dependencies:
       '@remix-run/express': 2.17.4(express@4.20.0)(typescript@5.5.4)
@@ -23952,8 +24019,20 @@ snapshots:
       '@types/cookie': 0.6.0
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.7.2
-      set-cookie-parser: 2.6.0
-      source-map: 0.7.4
+      set-cookie-parser: 2.7.2
+      source-map: 0.7.6
+      turbo-stream: 2.4.1
+    optionalDependencies:
+      typescript: 5.5.4
+
+  '@remix-run/server-runtime@2.17.5(typescript@5.5.4)':
+    dependencies:
+      '@remix-run/router': 1.23.3
+      '@types/cookie': 0.6.0
+      '@web3-storage/multipart-parser': 1.0.0
+      cookie: 0.7.2
+      set-cookie-parser: 2.7.2
+      source-map: 0.7.6
       turbo-stream: 2.4.1
     optionalDependencies:
       typescript: 5.5.4
@@ -23970,10 +24049,10 @@ snapshots:
     transitivePeerDependencies:
       - react-dom
 
-  '@remix-run/v1-meta@0.1.3(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))':
+  '@remix-run/v1-meta@0.1.3(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))':
     dependencies:
       '@remix-run/react': 2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
-      '@remix-run/server-runtime': 2.17.4(typescript@5.5.4)
+      '@remix-run/server-runtime': 2.17.5(typescript@5.5.4)
 
   '@remix-run/web-blob@3.1.0':
     dependencies:
@@ -24236,7 +24315,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       react: 18.3.1
 
-  '@sentry/remix@9.46.0(patch_hash=146126b032581925294aaed63ab53ce3f5e0356a755f1763d7a9a76b9846943b)(@remix-run/node@2.17.4(typescript@5.5.4))(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(encoding@0.1.13)(react@18.3.1)':
+  '@sentry/remix@9.46.0(patch_hash=146126b032581925294aaed63ab53ce3f5e0356a755f1763d7a9a76b9846943b)(@remix-run/node@2.17.4(typescript@5.5.4))(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(encoding@0.1.13)(react@18.3.1)':
     dependencies:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/instrumentation': 0.57.2(@opentelemetry/api@1.9.1)
@@ -24244,7 +24323,7 @@ snapshots:
       '@remix-run/node': 2.17.4(typescript@5.5.4)
       '@remix-run/react': 2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
       '@remix-run/router': 1.23.2(patch_hash=f14fb2af2690628a0164b66d98e8d7cd6a0e8a4a30a51e53cfb1b6caeca6f7c9)
-      '@remix-run/server-runtime': 2.17.4(typescript@5.5.4)
+      '@remix-run/server-runtime': 2.17.5(typescript@5.5.4)
       '@sentry/cli': 2.50.2(encoding@0.1.13)
       '@sentry/core': 9.46.0
       '@sentry/node': 9.46.0
@@ -25325,7 +25404,7 @@ snapshots:
   '@swc/core@1.3.101(@swc/helpers@0.5.15)':
     dependencies:
       '@swc/counter': 0.1.3
-      '@swc/types': 0.1.6
+      '@swc/types': 0.1.27
     optionalDependencies:
       '@swc/core-darwin-arm64': 1.3.101
       '@swc/core-darwin-x64': 1.3.101
@@ -25368,7 +25447,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@swc/types@0.1.6':
+  '@swc/types@0.1.27':
     dependencies:
       '@swc/counter': 0.1.3
     optional: true
@@ -25657,10 +25736,10 @@ snapshots:
 
   '@types/eslint-scope@3.7.7':
     dependencies:
-      '@types/eslint': 8.56.12
+      '@types/eslint': 9.6.1
       '@types/estree': 1.0.9
 
-  '@types/eslint@8.56.12':
+  '@types/eslint@9.6.1':
     dependencies:
       '@types/estree': 1.0.9
       '@types/json-schema': 7.0.15
@@ -26060,7 +26139,7 @@ snapshots:
       media-query-parser: 2.0.2
       outdent: 0.8.0
 
-  '@vanilla-extract/integration@6.2.1(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.46.1)':
+  '@vanilla-extract/integration@6.2.1(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.48.0)':
     dependencies:
       '@babel/core': 7.22.17
       '@babel/plugin-syntax-typescript': 7.21.4(@babel/core@7.22.17)
@@ -26073,8 +26152,8 @@ snapshots:
       lodash: 4.18.1
       mlly: 1.7.4
       outdent: 0.8.0
-      vite: 4.4.9(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.46.1)
-      vite-node: 0.28.5(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.46.1)
+      vite: 4.4.9(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.48.0)
+      vite-node: 0.28.5(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.48.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -26111,7 +26190,7 @@ snapshots:
       obug: 2.1.1
       std-env: 4.1.0
       tinyrainbow: 3.1.0
-      vitest: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@3.12.2)(yaml@2.9.0))
+      vitest: 4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0))
 
   '@vitest/expect@4.1.7':
     dependencies:
@@ -26122,21 +26201,21 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.7(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@3.12.2)(yaml@2.9.0))':
+  '@vitest/mocker@4.1.7(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@3.12.2)(yaml@2.9.0))':
     dependencies:
       '@vitest/spy': 4.1.7
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@3.12.2)(yaml@2.9.0)
+      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@3.12.2)(yaml@2.9.0)
 
-  '@vitest/mocker@4.1.7(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.22.4)(yaml@2.9.0))':
+  '@vitest/mocker@4.1.7(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0))':
     dependencies:
       '@vitest/spy': 4.1.7
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.22.4)(yaml@2.9.0)
+      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0)
 
   '@vitest/pretty-format@4.1.7':
     dependencies:
@@ -26306,9 +26385,9 @@ snapshots:
     dependencies:
       acorn: 8.16.0
 
-  acorn-import-phases@1.0.4(acorn@8.16.0):
+  acorn-import-phases@1.0.4(acorn@8.17.0):
     dependencies:
-      acorn: 8.16.0
+      acorn: 8.17.0
 
   acorn-jsx@5.3.2(acorn@8.16.0):
     dependencies:
@@ -26329,6 +26408,8 @@ snapshots:
   acorn@8.14.1: {}
 
   acorn@8.16.0: {}
+
+  acorn@8.17.0: {}
 
   agent-base@6.0.2:
     dependencies:
@@ -26662,7 +26743,7 @@ snapshots:
 
   base64id@2.0.0: {}
 
-  baseline-browser-mapping@2.10.11: {}
+  baseline-browser-mapping@2.10.40: {}
 
   baseline-browser-mapping@2.8.28: {}
 
@@ -26803,13 +26884,13 @@ snapshots:
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
 
-  browserslist@4.28.1:
+  browserslist@4.28.4:
     dependencies:
-      baseline-browser-mapping: 2.10.11
-      caniuse-lite: 1.0.30001793
-      electron-to-chromium: 1.5.325
-      node-releases: 2.0.36
-      update-browserslist-db: 1.2.3(browserslist@4.28.1)
+      baseline-browser-mapping: 2.10.40
+      caniuse-lite: 1.0.30001799
+      electron-to-chromium: 1.5.381
+      node-releases: 2.0.50
+      update-browserslist-db: 1.2.3(browserslist@4.28.4)
 
   btoa-lite@1.0.0: {}
 
@@ -26964,7 +27045,7 @@ snapshots:
 
   caniuse-lite@1.0.30001754: {}
 
-  caniuse-lite@1.0.30001793: {}
+  caniuse-lite@1.0.30001799: {}
 
   case-anything@2.1.13: {}
 
@@ -27283,7 +27364,7 @@ snapshots:
 
   cookie@0.7.2: {}
 
-  cookie@1.0.2: {}
+  cookie@1.1.1: {}
 
   cookiejar@2.1.4: {}
 
@@ -27413,7 +27494,7 @@ snapshots:
     dependencies:
       hyphenate-style-name: 1.0.4
 
-  css-loader@6.10.0(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)):
+  css-loader@6.10.0(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.10)
       postcss: 8.5.10
@@ -27424,7 +27505,7 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.6.3
     optionalDependencies:
-      webpack: 5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)
+      webpack: 5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)
 
   css-tree@1.1.3:
     dependencies:
@@ -28007,7 +28088,7 @@ snapshots:
 
   electron-to-chromium@1.5.252: {}
 
-  electron-to-chromium@1.5.325: {}
+  electron-to-chromium@1.5.381: {}
 
   emoji-regex@8.0.0: {}
 
@@ -28082,7 +28163,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  enhanced-resolve@5.18.3:
+  enhanced-resolve@5.24.1:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.3.3
@@ -28608,7 +28689,7 @@ snapshots:
     dependencies:
       '@types/estree-jsx': 1.0.0
       astring: 1.8.4
-      source-map: 0.7.4
+      source-map: 0.7.6
 
   estree-util-value-to-estree@1.3.0:
     dependencies:
@@ -28820,7 +28901,7 @@ snapshots:
       body-parser: 2.2.2
       content-disposition: 1.0.0
       content-type: 1.0.5
-      cookie: 0.7.1
+      cookie: 0.7.2
       cookie-signature: 1.2.2
       debug: 4.4.3(supports-color@10.0.0)
       depd: 2.0.0
@@ -30204,9 +30285,9 @@ snapshots:
 
   light-my-request@6.6.0:
     dependencies:
-      cookie: 1.0.2
+      cookie: 1.1.1
       process-warning: 4.0.1
-      set-cookie-parser: 2.6.0
+      set-cookie-parser: 2.7.2
 
   lightningcss-darwin-arm64@1.29.2:
     optional: true
@@ -30283,7 +30364,7 @@ snapshots:
       pify: 4.0.1
       strip-bom: 3.0.0
 
-  loader-runner@4.3.1: {}
+  loader-runner@4.3.2: {}
 
   loader-utils@3.2.1: {}
 
@@ -31447,9 +31528,9 @@ snapshots:
 
   nice-try@1.0.5: {}
 
-  node-abi@3.89.0:
+  node-abi@3.92.0:
     dependencies:
-      semver: 7.8.1
+      semver: 7.8.5
     optional: true
 
   node-abort-controller@3.1.1: {}
@@ -31488,7 +31569,7 @@ snapshots:
 
   node-releases@2.0.27: {}
 
-  node-releases@2.0.36: {}
+  node-releases@2.0.50: {}
 
   nodemailer@8.0.6: {}
 
@@ -32230,14 +32311,14 @@ snapshots:
       tsx: 4.22.4
       yaml: 2.9.0
 
-  postcss-loader@8.1.1(postcss@8.5.10)(typescript@5.5.4)(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)):
+  postcss-loader@8.1.1(postcss@8.5.10)(typescript@5.5.4)(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)):
     dependencies:
       cosmiconfig: 9.0.0(typescript@5.5.4)
       jiti: 1.21.0
       postcss: 8.5.10
       semver: 7.6.3
     optionalDependencies:
-      webpack: 5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)
+      webpack: 5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)
     transitivePeerDependencies:
       - typescript
 
@@ -32363,11 +32444,11 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
-      node-abi: 3.89.0
+      node-abi: 3.92.0
       pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
-      tar-fs: 2.1.4
+      tar-fs: 2.1.5
       tunnel-agent: 0.6.0
     optional: true
 
@@ -33136,46 +33217,46 @@ snapshots:
 
   remend@1.3.0: {}
 
-  remix-auth-email-link@2.0.2(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))):
+  remix-auth-email-link@2.0.2(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))):
     dependencies:
-      '@remix-run/server-runtime': 2.17.4(typescript@5.5.4)
+      '@remix-run/server-runtime': 2.17.5(typescript@5.5.4)
       crypto-js: 4.1.1
-      remix-auth: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))
+      remix-auth: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))
 
-  remix-auth-github@1.6.0(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))):
+  remix-auth-github@1.6.0(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))):
     dependencies:
-      '@remix-run/server-runtime': 2.17.4(typescript@5.5.4)
-      remix-auth: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))
-      remix-auth-oauth2: 1.11.0(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4)))
+      '@remix-run/server-runtime': 2.17.5(typescript@5.5.4)
+      remix-auth: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))
+      remix-auth-oauth2: 1.11.0(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4)))
     transitivePeerDependencies:
       - supports-color
 
-  remix-auth-google@2.0.0(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))):
+  remix-auth-google@2.0.0(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))):
     dependencies:
-      '@remix-run/server-runtime': 2.17.4(typescript@5.5.4)
-      remix-auth: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))
-      remix-auth-oauth2: 1.11.0(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4)))
+      '@remix-run/server-runtime': 2.17.5(typescript@5.5.4)
+      remix-auth: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))
+      remix-auth-oauth2: 1.11.0(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4)))
     transitivePeerDependencies:
       - supports-color
 
-  remix-auth-oauth2@1.11.0(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))):
+  remix-auth-oauth2@1.11.0(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))):
     dependencies:
-      '@remix-run/server-runtime': 2.17.4(typescript@5.5.4)
+      '@remix-run/server-runtime': 2.17.5(typescript@5.5.4)
       debug: 4.4.3(supports-color@10.0.0)
-      remix-auth: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))
+      remix-auth: 3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))
     transitivePeerDependencies:
       - supports-color
 
-  remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4)):
+  remix-auth@3.6.0(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4)):
     dependencies:
       '@remix-run/react': 2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
-      '@remix-run/server-runtime': 2.17.4(typescript@5.5.4)
+      '@remix-run/server-runtime': 2.17.5(typescript@5.5.4)
       uuid: 8.3.2
 
-  remix-typedjson@0.3.1(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.4(typescript@5.5.4))(react@18.3.1):
+  remix-typedjson@0.3.1(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/server-runtime@2.17.5(typescript@5.5.4))(react@18.3.1):
     dependencies:
       '@remix-run/react': 2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
-      '@remix-run/server-runtime': 2.17.4(typescript@5.5.4)
+      '@remix-run/server-runtime': 2.17.5(typescript@5.5.4)
       react: 18.3.1
 
   remix-utils@7.7.0(@remix-run/node@2.17.4(typescript@5.5.4))(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/router@1.23.2(patch_hash=f14fb2af2690628a0164b66d98e8d7cd6a0e8a4a30a51e53cfb1b6caeca6f7c9))(crypto-js@4.2.0)(intl-parse-accept-language@1.0.0)(react@18.3.1)(zod@3.25.76):
@@ -33449,6 +33530,9 @@ snapshots:
 
   semver@7.8.1: {}
 
+  semver@7.8.5:
+    optional: true
+
   send@0.18.0:
     dependencies:
       debug: 2.6.9
@@ -33548,6 +33632,8 @@ snapshots:
   set-blocking@2.0.0: {}
 
   set-cookie-parser@2.6.0: {}
+
+  set-cookie-parser@2.7.2: {}
 
   set-function-length@1.2.2:
     dependencies:
@@ -33759,7 +33845,7 @@ snapshots:
 
   source-map@0.6.1: {}
 
-  source-map@0.7.4: {}
+  source-map@0.7.6: {}
 
   source-map@0.8.0-beta.0:
     dependencies:
@@ -34013,9 +34099,9 @@ snapshots:
 
   stubborn-utils@1.0.2: {}
 
-  style-loader@3.3.4(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)):
+  style-loader@3.3.4(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)):
     dependencies:
-      webpack: 5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)
+      webpack: 5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)
 
   style-mod@4.1.3: {}
 
@@ -34211,6 +34297,14 @@ snapshots:
       pump: 3.0.2
       tar-stream: 2.2.0
 
+  tar-fs@2.1.5:
+    dependencies:
+      chownr: 1.1.4
+      mkdirp-classic: 0.5.3
+      pump: 3.0.4
+      tar-stream: 2.2.0
+    optional: true
+
   tar-fs@3.1.2:
     dependencies:
       pump: 3.0.2
@@ -34270,21 +34364,23 @@ snapshots:
 
   term-size@2.2.1: {}
 
-  terser-webpack-plugin@5.4.0(@swc/core@1.3.26)(esbuild@0.15.18)(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)):
+  terser-webpack-plugin@5.6.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
-      terser: 5.46.1
-      webpack: 5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)
+      terser: 5.48.0
+      webpack: 5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)
     optionalDependencies:
       '@swc/core': 1.3.26
       esbuild: 0.15.18
+      lightningcss: 1.29.2
+      postcss: 8.5.10
 
-  terser@5.46.1:
+  terser@5.48.0:
     dependencies:
       '@jridgewell/source-map': 0.3.11
-      acorn: 8.16.0
+      acorn: 8.17.0
       commander: 2.20.3
       source-map-support: 0.5.21
 
@@ -34881,9 +34977,9 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  update-browserslist-db@1.2.3(browserslist@4.28.1):
+  update-browserslist-db@1.2.3(browserslist@4.28.4):
     dependencies:
-      browserslist: 4.28.1
+      browserslist: 4.28.4
       escalade: 3.2.0
       picocolors: 1.1.1
 
@@ -35039,7 +35135,7 @@ snapshots:
       d3-time: 3.1.0
       d3-timer: 3.0.1
 
-  vite-node@0.28.5(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.46.1):
+  vite-node@0.28.5(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.48.0):
     dependencies:
       cac: 6.7.14
       debug: 4.4.3(supports-color@10.0.0)
@@ -35048,7 +35144,7 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.4.9(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.46.1)
+      vite: 4.4.9(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.48.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -35059,13 +35155,13 @@ snapshots:
       - supports-color
       - terser
 
-  vite-node@3.1.4(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.20.6)(yaml@2.9.0):
+  vite-node@3.1.4(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.20.6)(yaml@2.9.0):
     dependencies:
       cac: 6.7.14
       debug: 4.4.3(supports-color@10.0.0)
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.20.6)(yaml@2.9.0)
+      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.20.6)(yaml@2.9.0)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -35089,7 +35185,7 @@ snapshots:
       - supports-color
       - typescript
 
-  vite@4.4.9(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.46.1):
+  vite@4.4.9(@types/node@20.14.14)(lightningcss@1.29.2)(terser@5.48.0):
     dependencies:
       esbuild: 0.18.11
       postcss: 8.5.10
@@ -35098,9 +35194,9 @@ snapshots:
       '@types/node': 20.14.14
       fsevents: 2.3.3
       lightningcss: 1.29.2
-      terser: 5.46.1
+      terser: 5.48.0
 
-  vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@3.12.2)(yaml@2.9.0):
+  vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@3.12.2)(yaml@2.9.0):
     dependencies:
       esbuild: 0.25.1
       fdir: 6.4.4(picomatch@4.0.4)
@@ -35113,11 +35209,11 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.6.1
       lightningcss: 1.29.2
-      terser: 5.46.1
+      terser: 5.48.0
       tsx: 3.12.2
       yaml: 2.9.0
 
-  vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.20.6)(yaml@2.9.0):
+  vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.20.6)(yaml@2.9.0):
     dependencies:
       esbuild: 0.25.1
       fdir: 6.4.4(picomatch@4.0.4)
@@ -35130,11 +35226,11 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.6.1
       lightningcss: 1.29.2
-      terser: 5.46.1
+      terser: 5.48.0
       tsx: 4.20.6
       yaml: 2.9.0
 
-  vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.22.4)(yaml@2.9.0):
+  vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0):
     dependencies:
       esbuild: 0.25.1
       fdir: 6.4.4(picomatch@4.0.4)
@@ -35147,14 +35243,14 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.6.1
       lightningcss: 1.29.2
-      terser: 5.46.1
+      terser: 5.48.0
       tsx: 4.22.4
       yaml: 2.9.0
 
-  vitest@4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@3.12.2)(yaml@2.9.0)):
+  vitest@4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@3.12.2)(yaml@2.9.0)):
     dependencies:
       '@vitest/expect': 4.1.7
-      '@vitest/mocker': 4.1.7(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@3.12.2)(yaml@2.9.0))
+      '@vitest/mocker': 4.1.7(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@3.12.2)(yaml@2.9.0))
       '@vitest/pretty-format': 4.1.7
       '@vitest/runner': 4.1.7
       '@vitest/snapshot': 4.1.7
@@ -35171,7 +35267,7 @@ snapshots:
       tinyexec: 1.2.3
       tinyglobby: 0.2.16
       tinyrainbow: 3.1.0
-      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@3.12.2)(yaml@2.9.0)
+      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@3.12.2)(yaml@2.9.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
@@ -35180,10 +35276,10 @@ snapshots:
     transitivePeerDependencies:
       - msw
 
-  vitest@4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.22.4)(yaml@2.9.0)):
+  vitest@4.1.7(@opentelemetry/api@1.9.1)(@types/node@20.14.14)(@vitest/coverage-v8@4.1.7)(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0)):
     dependencies:
       '@vitest/expect': 4.1.7
-      '@vitest/mocker': 4.1.7(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.22.4)(yaml@2.9.0))
+      '@vitest/mocker': 4.1.7(vite@6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0))
       '@vitest/pretty-format': 4.1.7
       '@vitest/runner': 4.1.7
       '@vitest/snapshot': 4.1.7
@@ -35200,7 +35296,7 @@ snapshots:
       tinyexec: 1.2.3
       tinyglobby: 0.2.16
       tinyrainbow: 3.1.0
-      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.46.1)(tsx@4.22.4)(yaml@2.9.0)
+      vite: 6.4.2(@types/node@20.14.14)(jiti@2.6.1)(lightningcss@1.29.2)(terser@5.48.0)(tsx@4.22.4)(yaml@2.9.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
@@ -35234,9 +35330,8 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
 
-  watchpack@2.5.1:
+  watchpack@2.5.2:
     dependencies:
-      glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
 
   wcwidth@1.0.1:
@@ -35259,9 +35354,9 @@ snapshots:
 
   webidl-conversions@4.0.2: {}
 
-  webpack-sources@3.3.4: {}
+  webpack-sources@3.5.0: {}
 
-  webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18):
+  webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.9
@@ -35269,28 +35364,37 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@webassemblyjs/wasm-edit': 1.14.1
       '@webassemblyjs/wasm-parser': 1.14.1
-      acorn: 8.16.0
-      acorn-import-phases: 1.0.4(acorn@8.16.0)
-      browserslist: 4.28.1
+      acorn: 8.17.0
+      acorn-import-phases: 1.0.4(acorn@8.17.0)
+      browserslist: 4.28.4
       chrome-trace-event: 1.0.4
-      enhanced-resolve: 5.18.3
+      enhanced-resolve: 5.24.1
       es-module-lexer: 1.7.0
       eslint-scope: 5.1.1
       events: 3.3.0
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
       json-parse-even-better-errors: 2.3.1
-      loader-runner: 4.3.1
+      loader-runner: 4.3.2
       mime-types: 2.1.35
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.3
-      terser-webpack-plugin: 5.4.0(@swc/core@1.3.26)(esbuild@0.15.18)(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18))
-      watchpack: 2.5.1
-      webpack-sources: 3.3.4
+      terser-webpack-plugin: 5.6.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10)(webpack@5.102.1(@swc/core@1.3.26)(esbuild@0.15.18)(lightningcss@1.29.2)(postcss@8.5.10))
+      watchpack: 2.5.2
+      webpack-sources: 3.5.0
     transitivePeerDependencies:
+      - '@minify-html/node'
       - '@swc/core'
+      - '@swc/css'
+      - '@swc/html'
+      - clean-css
+      - cssnano
+      - csso
       - esbuild
+      - html-minifier-terser
+      - lightningcss
+      - postcss
       - uglify-js
 
   whatwg-url@5.0.0:
