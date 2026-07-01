@@ -11,7 +11,7 @@
   "devDependencies": {
     "@trigger.dev/database": "workspace:*",
     "@types/node": "^20.14.14",
-    "rimraf": "6.0.1"
+    "rimraf": "6.1.1"
   },
   "scripts": {
     "clean": "rimraf dist",
