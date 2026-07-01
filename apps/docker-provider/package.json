@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "dotenv": "^16.4.2",
-    "esbuild": "^0.19.11",
-    "tsx": "^4.7.0"
+    "esbuild": "^0.28.1",
+    "tsx": "^4.22.0"
   }
 }
