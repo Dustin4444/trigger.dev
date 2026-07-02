@@ -236,7 +236,7 @@
     "ai": "^6.0.0",
     "ai-v7": "npm:ai@7.0.0-canary.159",
     "defu": "^6.1.4",
-    "esbuild": "^0.23.0",
+    "esbuild": "^0.28.1",
     "rimraf": "^6.0.1",
     "superjson": "^2.2.1",
     "ts-essentials": "10.0.1",
