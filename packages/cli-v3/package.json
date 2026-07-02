@@ -110,7 +110,7 @@
     "confbox": "^0.2.2",
     "defu": "^6.1.4",
     "dotenv": "^16.4.5",
-    "esbuild": "^0.23.0",
+    "esbuild": "^0.28.1",
     "eventsource": "^3.0.2",
     "evt": "^2.4.13",
     "fast-npm-meta": "^0.2.2",
