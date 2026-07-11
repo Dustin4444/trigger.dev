@@ -54,7 +54,7 @@
     "tshy": "^3.0.2",
     "typescript": "^5.5.4",
     "tsx": "4.17.0",
-    "esbuild": "^0.23.0",
+    "esbuild": "^0.28.1",
     "@arethetypeswrong/cli": "^0.15.4",
     "@trigger.dev/build": "workspace:4.5.3",
     "@trigger.dev/sdk": "workspace:4.5.3"
