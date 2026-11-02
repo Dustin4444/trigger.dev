@@ -147,7 +147,7 @@
     "aws4fetch": "^1.0.18",
     "class-variance-authority": "^0.5.2",
     "clsx": "^1.2.1",
-    "compression": "^1.7.4",
+    "compression": "^1.8.2",
     "cookie": "^0.6.0",
     "cron-parser": "^4.9.0",
     "cronstrue": "^2.21.0",
@@ -169,7 +169,7 @@
     "lru-cache": "^11.2.4",
     "lucide-react": "^0.229.0",
     "match-sorter": "^6.3.4",
-    "morgan": "^1.10.0",
+    "morgan": "^1.12.1",
     "nanoid": "3.3.18",
     "neverthrow": "^8.2.0",
     "non.geist": "^1.0.2",
@@ -222,7 +222,7 @@
     "util": "^0.12.5",
     "uuid": "^14.0.0",
     "ws": "^8.11.0",
-    "zod": "4.5.4",
+    "zod": "4.6.6",
     "zod-error": "2.0.0",
     "zod-validation-error": "^5.0.0"
   },
@@ -257,7 +257,7 @@
     "esbuild": "^0.15.10",
     "evalite": "1.0.0-beta.16",
     "jsdom": "^30.0.1",
-    "react-router-dom": "6.30.4",
+    "react-router-dom": "7.18.5",
     "socket.io-client": "4.7.5",
     "supertest": "^7.0.0",
     "tailwind-scrollbar": "^4.0.2",
@@ -265,7 +265,7 @@
     "typescript": "catalog:",
     "typescript-legacy-api": "npm:typescript@6.0.3",
     "vite-tsconfig-paths": "^5.1.4",
-    "vite": "^6.4.2"
+    "vite": "^6.4.5"
   },
   "engines": {
     "node": ">=18.19.0 || >=20.6.0"
