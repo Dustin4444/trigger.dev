@@ -9,11 +9,11 @@
     ".": "./src/index.ts"
   },
   "dependencies": {
-    "zod": "3.25.76"
+    "zod": "4.6.6"
   },
   "devDependencies": {
     "typescript": "catalog:",
-    "vitest": "4.1.7"
+    "vitest": "5.0.5"
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
